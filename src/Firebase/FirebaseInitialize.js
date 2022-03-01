@@ -1,11 +1,9 @@
-import React from 'react';
+import { initializeApp } from "firebase/app";
+import firebaseConfig from "./firebase.config";
 
-const FirebaseInitialize = () => {
-    return (
-        <div>
 
-        </div>
-    );
-};
+const initializeAuthentication = () => {
+    initializeApp(firebaseConfig);
+}
 
-export default FirebaseInitialize;
+export default initializeAuthentication;
