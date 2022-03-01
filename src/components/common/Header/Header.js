@@ -4,7 +4,7 @@ import { LinkContainer } from 'react-router-bootstrap';
 
 const Header = () => {
     return (
-        <div>
+        <header>
             <Navbar bg="black" variant="dark">
                 <Container>
                     <Navbar.Brand href="#home"> <img src="/logo.png" alt="Travel Insider" width="250px" /></Navbar.Brand>
@@ -17,7 +17,7 @@ const Header = () => {
                     </Nav>
                 </Container>
             </Navbar>
-        </div>
+        </header>
     );
 };
 
